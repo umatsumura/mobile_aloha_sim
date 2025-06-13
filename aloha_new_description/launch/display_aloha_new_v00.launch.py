@@ -23,6 +23,6 @@ def generate_launch_description():
             package='rviz2',
             executable='rviz2',
             output='screen',
-            # arguments=['-d', os.path.join(aloha_new_description_pkg, 'rviz', 'aloha.rviz')]
+            arguments=['-d', os.path.join(aloha_new_description_pkg, 'rviz', 'aloha.rviz')]
         )
     ])
